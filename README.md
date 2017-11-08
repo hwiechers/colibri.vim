@@ -43,7 +43,12 @@ NeoBundle 'archseer/colibri.vim'
 Plugin 'archseer/colibri.vim'
 ```
 
-If you don't use a plugin manager just copy the content of vim/colors/ to ~/.vim/colors.
+If you're using Vim 8, you can install it as a package:
+```
+git clone https://github.com/archSeer/colibri.vim.git ~/.vim/pack/colibri.vim/start/colibri.vim
+```
+
+Otherwise, if you don't use a plugin manager, just copy the content of vim/colors/ to ~/.vim/colors.
 
 When you have the plugin installed, you can set it in your vimrc:
 
